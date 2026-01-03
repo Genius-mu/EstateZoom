@@ -46,7 +46,7 @@ const BuyPage = () => {
       new: true,
       openHouse: true,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?luxury-villa,1",
+      image: "/images/img6.webp",
     },
     {
       id: 2,
@@ -61,7 +61,7 @@ const BuyPage = () => {
       new: false,
       openHouse: false,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?penthouse,2",
+      image: "/images/img7.webp",
     },
     {
       id: 3,
@@ -76,7 +76,7 @@ const BuyPage = () => {
       new: true,
       openHouse: true,
       virtualTour: false,
-      image: "https://source.unsplash.com/random/800x600/?beach-house,3",
+      image: "/images/img8.webp",
     },
     {
       id: 4,
@@ -91,7 +91,7 @@ const BuyPage = () => {
       new: true,
       openHouse: false,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?townhouse,4",
+      image: "/images/img9.webp",
     },
     {
       id: 5,
@@ -106,7 +106,7 @@ const BuyPage = () => {
       new: false,
       openHouse: true,
       virtualTour: false,
-      image: "https://source.unsplash.com/random/800x600/?suburban-home,5",
+      image: "/images/img3.webp",
     },
     {
       id: 6,
@@ -121,7 +121,7 @@ const BuyPage = () => {
       new: true,
       openHouse: false,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?loft-apartment,6",
+      image: "/images/img10.webp",
     },
     {
       id: 7,
@@ -136,7 +136,7 @@ const BuyPage = () => {
       new: false,
       openHouse: true,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?mountain-house,7",
+      image: "/images/img5.webp",
     },
     {
       id: 8,
@@ -151,7 +151,7 @@ const BuyPage = () => {
       new: true,
       openHouse: false,
       virtualTour: true,
-      image: "https://source.unsplash.com/random/800x600/?beach-condo,8",
+      image: "/images/img2.webp",
     },
   ];
 
@@ -448,11 +448,11 @@ const BuyPage = () => {
 
                   <div className="p-6">
                     <div className="flex justify-between items-start mb-3">
-                      <h3 className="text-xl font-bold text-gray-900 line-clamp-2">
+                      <h3 className="text-xl font-bold text-gray-800 line-clamp-2">
                         {property.title}
                       </h3>
                     </div>
-                    <p className="text-2xl font-extrabold text-blue-600 mb-3">
+                    <p className="text-xl font-bold text-blue-600 mb-3">
                       ${property.price.toLocaleString()}
                     </p>
 
