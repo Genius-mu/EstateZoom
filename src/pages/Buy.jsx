@@ -215,9 +215,9 @@ const BuyPage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero Search Section */}
-      <section className="relative bg-gradient-to-br from-blue-900 via-indigo-900 to-purple-900 py-24">
+      <section className="relative bg-[url('/images/img1.webp')] bg-cover bg-center bg-[rgba(0,0,0,.5)] bg-blend-darken py-30">
         <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="relative max-w-7xl flex flex-col gap-y-10 mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center text-white" {...fadeIn}>
             <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
               Find Your Perfect Home
