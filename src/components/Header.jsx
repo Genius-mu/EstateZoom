@@ -216,7 +216,7 @@ const Header = () => {
               {navLinks.map((link) => (
                 <a
                   key={link.linkTo}
-                  href="#"
+                  href={link.linkTo}
                   className="flex items-center space-x-4 text-xl font-medium text-gray-800 hover:text-blue-600 py-3"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
