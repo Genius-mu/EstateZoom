@@ -31,12 +31,12 @@ const Header = () => {
     { name: "Buy", hasDropdown: true, linkTo: "buy" },
     { name: "Rent", hasDropdown: true, linkTo: "rent" },
     { name: "Sell", hasDropdown: false, linkTo: "sell" },
-    {
-      name: "Saved Homes",
-      icon: <Heart size={18} />,
-      hasDropdown: false,
-      linkTo: "savedHomes",
-    },
+    // {
+    //   name: "Saved Homes",
+    //   icon: <Heart size={18} />,
+    //   hasDropdown: false,
+    //   linkTo: "savedHomes",
+    // },
     {
       name: "Contact",
       icon: <Phone size={18} />,

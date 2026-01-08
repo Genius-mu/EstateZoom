@@ -48,7 +48,7 @@ const RentPage = () => {
       available: "Immediately",
       pets: true,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?luxury-apartment,1",
+      image: "/images/img11.webp",
     },
     {
       id: 2,
@@ -63,7 +63,7 @@ const RentPage = () => {
       available: "02/01/2026",
       pets: true,
       furnished: false,
-      image: "https://source.unsplash.com/random/800x600/?townhouse-rental,2",
+      image: "/images/img10.webp",
     },
     {
       id: 3,
@@ -78,7 +78,7 @@ const RentPage = () => {
       available: "Immediately",
       pets: false,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?beach-condo,3",
+      image: "/images/img3.webp",
     },
     {
       id: 4,
@@ -93,7 +93,7 @@ const RentPage = () => {
       available: "01/15/2026",
       pets: true,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?studio-apartment,4",
+      image: "/images/img9.webp",
     },
     {
       id: 5,
@@ -109,7 +109,7 @@ const RentPage = () => {
       pets: true,
       furnished: false,
       image:
-        "https://source.unsplash.com/random/800x600/?suburban-house-rental,5",
+        "/images/img6.webp",
     },
     {
       id: 6,
@@ -124,7 +124,7 @@ const RentPage = () => {
       available: "Immediately",
       pets: false,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?loft-apartment,6",
+      image: "/images/img8.webp",
     },
     {
       id: 7,
@@ -139,7 +139,7 @@ const RentPage = () => {
       available: "02/15/2026",
       pets: true,
       furnished: false,
-      image: "https://source.unsplash.com/random/800x600/?pet-friendly-condo,7",
+      image: "/images/img2.webp",
     },
     {
       id: 8,
@@ -154,7 +154,7 @@ const RentPage = () => {
       available: "Immediately",
       pets: false,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?furnished-house,8",
+      image: "/images/img7.webp",
     },
     {
       id: 9,
@@ -169,7 +169,7 @@ const RentPage = () => {
       available: "01/20/2026",
       pets: true,
       furnished: true,
-      image: "https://source.unsplash.com/random/800x600/?luxury-highrise,9",
+      image: "/images/img4.webp",
     },
     {
       id: 10,
@@ -184,7 +184,7 @@ const RentPage = () => {
       available: "02/01/2026",
       pets: true,
       furnished: false,
-      image: "https://source.unsplash.com/random/800x600/?bungalow-rental,10",
+      image: "/images/img5.webp",
     },
   ];
 
