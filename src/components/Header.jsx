@@ -62,7 +62,7 @@ const Header = () => {
           >
             <Link to="/" className="relative">
               <div className="p-3 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-2xl shadow-lg">
-                <Home className="text-white" size={32} strokeWidth={2.5} />
+                <Home className="text-white w-5 h-5 sm:w-8 sm:h-8" size={32} strokeWidth={2.5} />
               </div>
               <motion.div
                 className="absolute -top-1 -right-1 w-4 h-4 bg-pink-500 rounded-full"
@@ -72,14 +72,14 @@ const Header = () => {
             </Link>
             <div>
               <h1
-                className={`text-3xl font-extrabold tracking-tight ${
+                className={`text-xl sm:text-3xl font-bold sm:font-extrabold tracking-tight ${
                   isScrolled ? "text-gray-900" : "text-white"
                 }`}
               >
                 EstateZoom
               </h1>
               <p
-                className={`text-xs tracking-wider ${
+                className={`text-[8px] sm:text-xs tracking-wider ${
                   isScrolled ? "text-gray-500" : "text-white/70"
                 }`}
               >

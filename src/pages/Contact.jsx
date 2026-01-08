@@ -120,7 +120,7 @@ const ContactPage = () => {
                   {item.title}
                 </h3>
                 {item.details.map((line, idx) => (
-                  <p key={idx} className="text-lg text-gray-600 mb-2">
+                  <p key={idx} className="text-[14px] sm:text-lg text-gray-600 mb-2">
                     {line}
                   </p>
                 ))}
@@ -144,10 +144,10 @@ const ContactPage = () => {
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-2xl p-10 md:p-16">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
+              <h2 className="text-2xl font-bold sm:font-extrabold md:text-5xl font-black text-gray-900 mb-2 sm:mb-6">
                 Send Us a Message
               </h2>
-              <p className="text-xl text-gray-600">
+              <p className="text-[15px] sm:text-xl text-gray-600">
                 Fill out the form below and we'll get back to you within 24
                 hours.
               </p>
@@ -205,15 +205,15 @@ const ContactPage = () => {
               <div className="md:col-span-2 text-center">
                 <button
                   type="submit"
-                  className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-12 py-6 rounded-2xl font-bold text-xl hover:shadow-2xl transition-all inline-flex items-center gap-4"
+                  className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 w-full sm:w-fit justify-center sm:px-12 py-6 rounded-2xl font-bold text-[16px] sm:text-xl hover:shadow-2xl transition-all inline-flex items-center gap-4"
                 >
                   Send Message
-                  <Send size={28} />
+                  <Send className="w-5 h-5 sm:w-7 sm:h-7" size={28} />
                 </button>
               </div>
             </form>
 
-            <div className="mt-12 flex justify-center gap-8 text-gray-600">
+            <div className="mt-12 flex flex-col sm:flex-row justify-center gap-8 text-gray-600">
               <div className="flex items-center gap-3">
                 <CheckCircle size={24} className="text-green-500" />
                 <span>Fast Response</span>
@@ -234,7 +234,7 @@ const ContactPage = () => {
       {/* Final CTA */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl md:text-5xl font-black mb-8">
+          <h2 className="text-4xl md:text-5xl sm:font-extrabold font-bold mb-8">
             Ready to Start Your Journey?
           </h2>
           <p className="text-xl mb-10 opacity-90">

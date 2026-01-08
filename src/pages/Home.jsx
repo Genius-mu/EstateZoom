@@ -38,25 +38,28 @@ const HomePage = () => {
           variants={staggerContainer}
         >
           <motion.h1
-            className="text-5xl md:text-7xl font-bold mb-4"
+            className="text-2xl md:text-7xl font-bold mb-4"
             variants={fadeInUp}
           >
             Find Your Dream Home
           </motion.h1>
-          <motion.p className="text-xl md:text-2xl mb-8" variants={fadeInUp}>
+          <motion.p
+            className="text-[14px] md:text-2xl mb-8"
+            variants={fadeInUp}
+          >
             Discover the perfect property in your ideal location
           </motion.p>
           <motion.div
-            className="max-w-2xl mx-auto bg-white/10 backdrop-blur-md rounded-full p-2 flex items-center"
+            className="max-w-2xl mx-auto bg-white/10 backdrop-blur-md rounded-full p-1 sm:p-2 flex items-center"
             variants={fadeInUp}
           >
-            <MapPin className="text-white ml-4" />
+            <MapPin className="text-white ml-4 sm:w-5 sm:h-5 w-3 h-3" />
             <input
               type="text"
               placeholder="Enter city, neighborhood, or ZIP code"
-              className="flex-grow bg-transparent text-white placeholder-white/70 px-4 py-2 focus:outline-none"
+              className="flex-grow bg-transparent text-white placeholder-white/70 px-2 py-1 sm:px-4 sm:py-2 focus:outline-none text-[13px]"
             />
-            <button className="bg-blue-600 text-white px-6 py-3 rounded-full flex items-center">
+            <button className="bg-blue-600 text-[13px] sm:text-[15px] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-full flex items-center">
               <Search className="mr-2" size={18} />
               Search
             </button>

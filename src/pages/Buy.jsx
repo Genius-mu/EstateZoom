@@ -219,10 +219,10 @@ const BuyPage = () => {
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative max-w-7xl flex flex-col gap-y-10 mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div className="text-center text-white" {...fadeIn}>
-            <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
+            <h1 className="text-2xl md:text-6xl font-bold sm:font-extrabold mb-3 sm:mb-6">
               Find Your Perfect Home
             </h1>
-            <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
+            <p className="text-[15px] md:text-2xl mb-10 max-w-3xl mx-auto">
               Explore {allProperties.length} properties for sale in your dream
               location
             </p>

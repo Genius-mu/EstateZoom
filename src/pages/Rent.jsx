@@ -261,7 +261,7 @@ const RentPage = () => {
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-6xl font-black tracking-tight mb-6"
+            className="text-2xl md:text-6xl font-black tracking-tight mb-1 sm:mb-6"
           >
             Find Your Perfect Rental
           </motion.h1>
@@ -269,7 +269,7 @@ const RentPage = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl md:text-2xl max-w-4xl mx-auto opacity-95"
+            className="text-xl md:text-2xl max-w-4xl mx-auto opacity-95 mb-3"
           >
             Explore {allProperties.length} beautiful homes and apartments
             available now
@@ -281,7 +281,7 @@ const RentPage = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="relative max-w-7xl mx-auto px-6 lg:px-8 -mt-12"
+          className="relative max-w-7xl mx-auto px-6 lg:px-8 -mt-2"
         >
           <div className="bg-white rounded-3xl shadow-2xl p-8">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-6 mb-6">

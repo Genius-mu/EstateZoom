@@ -48,7 +48,7 @@ const SellPage = () => {
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-6xl font-black tracking-tight mb-8 drop-shadow-2xl"
+            className="text-3xl md:text-6xl font-black tracking-tight mb-8 drop-shadow-2xl"
           >
             Sell Your Home with Confidence
           </motion.h1>
@@ -56,7 +56,7 @@ const SellPage = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="text-xl md:text-2xl max-w-4xl mx-auto mb-10 opacity-95 drop-shadow-lg leading-relaxed"
+            className="text-[15px] md:text-2xl max-w-4xl mx-auto mb-10 opacity-95 drop-shadow-lg leading-relaxed"
           >
             Get the best price, faster. Expert agents, powerful marketing, and
             zero stress.
