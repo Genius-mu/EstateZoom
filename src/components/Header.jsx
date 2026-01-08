@@ -98,8 +98,8 @@ const Header = () => {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 className="relative group"
               >
-                <a
-                  href={link.linkTo}
+                <Link
+                  to={link.linkTo}
                   className={`flex items-center space-x-2 px-5 py-3 rounded-xl font-medium transition-all duration-300 ${
                     isScrolled
                       ? "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
@@ -114,30 +114,30 @@ const Header = () => {
                       className="transition-transform group-hover:rotate-180"
                     />
                   )}
-                </a>
+                </Link>
 
                 {/* Dropdown placeholder (you can expand this later) */}
                 {link.hasDropdown && (
                   <div className="absolute top-full left-0 mt-2 w-48 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <div className="bg-white rounded-2xl shadow-2xl py-3 border border-gray-100">
-                      <a
+                      <Link
                         href="#"
                         className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                       >
                         Houses
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="#"
                         className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                       >
                         Apartments
-                      </a>
-                      <a
-                        href="#"
+                      </Link>
+                      <Link
+                        to="#"
                         className="block px-6 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600"
                       >
                         Condos
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 )}
@@ -214,15 +214,15 @@ const Header = () => {
           >
             <div className="px-6 py-8 space-y-6">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.linkTo}
-                  href={link.linkTo}
+                  to={link.linkTo}
                   className="flex items-center space-x-4 text-xl font-medium text-gray-800 hover:text-blue-600 py-3"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.icon && <span>{link.icon}</span>}
                   <span>{link.name}</span>
-                </a>
+                </Link>
               ))}
 
               <div className="pt-6 space-y-4">
